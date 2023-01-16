@@ -1,0 +1,6 @@
+Mansoura Mohamed Amine
+dans les fichiers suivant je gere la manipulation dun arbre binaire
+
+On peut maitre les teste en inserant une chaine de caractere contenant le texte ou mettre un nom de fichier  un booleen True 
+ la surcharge de la classe lecture s en occupera de la recuperation du text 
+                                              TAPEZ make pour compiler et executer

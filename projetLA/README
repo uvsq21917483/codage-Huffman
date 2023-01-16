@@ -1,0 +1,31 @@
+Mansoura Mohamed Amine
+dans les fichiers suivant,je gere la manipulation d'un arbre binaire;
+
+chaque arbre est construit d'un sommet et deux poiteur gauche et droit vers un autre arbre binaire
+dans sommet ,j'ai le booleen est lettre pour tester si ce sommet est une lettre + un entier represente une etiquete et un char lettre
+
+dans Arbre: j'ai l'attribut sommet qui est le somment du noeud actuel,+ les deux pointeurs vers les deux fils gauche et droit
+
+Arbre contient les fonctions qui permettent d'ajouter, supprimer un sommet, les fonctions qui permettent de fusionner/decomposer deux arbres.
+
+sommet contient les fonctions qui permettent de modifier l'etiquete de l'arbre,tester si ce sommet est une lettre.
+
+
+pour la 2eme partie:
+je mets un vecteur d'arbres, au debut je l'initialise avec des arbres contenant les frequences,puis,tant que la taille de l'arbre est superieur strictement à 1;
+je les deux arbres qui ont la plus petites etiquetes ,je les fusionne et je mets le resultat de la fusion dans le vecteur; quand il ne reste qu'un seul arbre; je
+le mets dans hauffman qui est un arbre 
+
+ 
+la partie 3:
+pour la partie 3, je met deux fonction p_decryptage et decryptage qui seront respectivement dans la classe arbre et la classe Lecture, 
+la fonction p_decryptage prend un code binaire en entré sous forme d'un string, + l'arbre definie dans la partie 2, en lisant le string caractere
+par caractere, tout en parcourant l'arbe : quand on lis un 0 on parcours le fils gauche et quand on lis un 1 on parcours le fils droit, à l'arrivée à 
+une feuille je garde le caractere correspendant.
+										
+
+								
+On peut mettre les teste en inserant une chaine de caractere contenante le texte, ou mettre un nom de fichier + un booleen True dans le make file,
+ la surcharge de la classe lecture s'en occupera de la recuperation du text .		
+										
+										TAPEZ make pour compiler et executer
